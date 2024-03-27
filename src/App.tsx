@@ -1,3 +1,5 @@
+import { Home } from './pages/home/Home'
+
 function App() {
   return (
     <div className="tw-h-full tw-flex tw-flex-col tw-p-6">
@@ -5,6 +7,9 @@ function App() {
         <h1 className="tw-text-xl tw-font-semibold">
           RTK Query Implementation with React
         </h1>
+      </div>
+      <div className="tw-h-full tw-flex tw-flex-col tw-content-center tw-flex-wrap tw-p-4">
+        <Home />
       </div>
     </div>
   )
