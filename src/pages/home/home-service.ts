@@ -8,6 +8,7 @@ const homeService = applicationApi.injectEndpoints({
         url: '/release/latest',
         method: 'GET',
       }),
+      providesTags: ['RELEASE'],
     }),
   }),
 })

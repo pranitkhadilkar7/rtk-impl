@@ -1,4 +1,5 @@
 import { Home } from './pages/home/Home'
+import { Login } from './pages/login/Login'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </div>
       <div className="tw-h-full tw-flex tw-flex-col tw-content-center tw-flex-wrap tw-p-4">
         <Home />
+        <Login />
       </div>
     </div>
   )
